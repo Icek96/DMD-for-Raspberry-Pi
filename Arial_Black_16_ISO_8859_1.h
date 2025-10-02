@@ -1,4 +1,3 @@
-
 /*
  *
  * Arial_Black_16_ISO_8859_1
@@ -38,7 +37,6 @@
  */
 
 #include <inttypes.h>
-#include <avr/pgmspace.h>
 
 #ifndef ARIAL_BLACK_16_ISO_8859_1_H
 #define ARIAL_BLACK_16_ISO_8859_1_H
@@ -46,7 +44,7 @@
 #define ARIAL_BLACK_16_ISO_8859_1_WIDTH 10
 #define ARIAL_BLACK_16_ISO_8859_1_HEIGHT 16
 
-const static uint8_t Arial_Black_16_ISO_8859_1[] PROGMEM = {
+const static uint8_t Arial_Black_16_ISO_8859_1[] = {
     0x64, 0x36, // size
     0x0A, // width
     0x10, // height

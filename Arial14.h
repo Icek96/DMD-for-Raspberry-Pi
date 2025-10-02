@@ -1,5 +1,3 @@
-
-
 /*
  *
  * Arial_14
@@ -37,7 +35,6 @@
  */
 
 #include <inttypes.h>
-#include <avr/pgmspace.h>
 
 #ifndef ARIAL_14_H
 #define ARIAL_14_H
@@ -45,7 +42,7 @@
 #define ARIAL_14_WIDTH 10
 #define ARIAL_14_HEIGHT 14
 
-const static uint8_t Arial_14[] PROGMEM = {
+const static uint8_t Arial_14[] = {
     0x1E, 0x6C, // size
     0x0A, // width
     0x0E, // height

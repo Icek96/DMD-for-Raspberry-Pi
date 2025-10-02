@@ -1,3 +1,10 @@
+################################################################################################################
+
+THIS VERSION HAS BEEN PORTED FOR RASPBERRY PI WITH SUPPORT FOR THE NEW LGPIO LIBRARIES, ENSURING COMPATIBILITY 
+WITH ALL RASPBERRY PI MODELS THAT SUPPORT THEM.
+
+################################################################################################################
+
 DMD library
 --------------
 Marc Alexander, Freetronics
